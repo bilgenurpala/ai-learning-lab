@@ -1,0 +1,16 @@
+Number Guessing Game
+Write a Number Guessing Game using functions and scope.
+Rules:
+
+Generate a random number between 1 and 100
+Ask the user to choose difficulty: "easy" (10 lives) or "hard" (5 lives)
+Ask the user to guess the number
+Give hints: "Too high" or "Too low"
+Each wrong guess costs a life
+Game ends when:
+
+Player guesses correctly → You Win!
+Lives run out → Game Over!
+
+
+Use functions and keep scope clean — no global variables

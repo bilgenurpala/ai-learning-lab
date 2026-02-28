@@ -2,7 +2,7 @@
 
 > A structured day-by-day Python learning journey — from beginner to advanced, focused on writing clean, readable, and interview-ready code.
 
-![Progress](https://img.shields.io/badge/Progress-Day%208%20of%20100-orange)
+![Progress](https://img.shields.io/badge/Progress-Day%2013%20of%20100-orange)
 ![Level](https://img.shields.io/badge/Level-Beginner-green)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
 ![VS Code](https://img.shields.io/badge/Editor-VS%20Code-blue?logo=visualstudiocode)
@@ -29,9 +29,15 @@ python-interview-training/
 │   ├── day06_functions.py
 │   ├── day07_hangman/
 │   │   ├── hangman_game.py
-│   │   └── pic/                  # Flowchart diagrams
+│   │   └── pic/
 │   ├── day08_function_parametres.py
-│   └── caesar_cipher.py
+│   ├── day09_dictionaries.py
+│   ├── day10_functions_outputs.py
+│   ├── day11_the_blackjack_project/
+│   │   └── blackjack.py
+│   ├── day12_scope_and_numberGuessing_project/
+│   │   └── guessing-game.py
+│   └── day13_debugging.py
 │
 └── README.md
 ```
@@ -54,8 +60,8 @@ python-interview-training/
 
 **Key Concepts:**
 ```python
-name = "Bilge"           # str
-age = 25                 # int
+name = "Bilge"
+age = 25
 print(f"Hello {name}, you are {age} years old.")
 
 user_age = int(input("Enter your age: "))  # type casting
@@ -74,13 +80,10 @@ user_age = int(input("Enter your age: "))  # type casting
 
 **Key Concepts:**
 ```python
-print(type(3.14))        # <class 'float'>
-print(type(True))        # <class 'bool'>
-
-print(10 / 3)            # 3.3333 — float division
-print(10 // 3)           # 3      — floor division
-print(10 % 3)            # 1      — modulus
-print(2 ** 8)            # 256    — exponent
+print(type(3.14))       # <class 'float'>
+print(10 // 3)          # 3 — floor division
+print(10 % 3)           # 1 — modulus
+print(2 ** 8)           # 256 — exponent
 ```
 
 ---
@@ -105,7 +108,7 @@ else:
 ```
 
 **🎮 Project: Treasure Island Game**
-> A text-based adventure game where the player makes choices at each step. Wrong choices end the game with unique messages. Built entirely with nested `if/elif/else` statements and `.lower()` for input normalization.
+> A text-based adventure game where the player makes choices at each step. Wrong choices end the game with unique messages. Built with nested `if/elif/else` statements and `.lower()` for input normalization.
 
 ---
 
@@ -121,9 +124,8 @@ else:
 **Key Concepts:**
 ```python
 fruits = ["apple", "banana", "cherry"]
-fruits.append("mango")       # add to end
-fruits.remove("banana")      # remove by value
-print(fruits[-1])             # last item: "cherry"
+fruits.append("mango")
+print(fruits[-1])             # last item
 
 import random
 print(random.choice(fruits))  # random item
@@ -131,7 +133,7 @@ random.shuffle(fruits)        # shuffle in place
 ```
 
 **🎮 Project: Rock Paper Scissors**
-> A classic game where the computer picks randomly from a list using `random.choice()`. The player's input is normalized with `.capitalize()` and all win/lose/draw outcomes are handled.
+> The computer picks randomly from a list using `random.choice()`. The player's input is normalized with `.capitalize()` and all win/lose/draw outcomes are handled.
 
 ---
 
@@ -151,11 +153,7 @@ for i in range(1, 10, 2):      # 1, 3, 5, 7, 9
     print(i)
 
 for index, char in enumerate("Python"):
-    print(index, char)         # 0 P, 1 y, 2 t ...
-
-count = 0
-while count < 5:
-    count += 1
+    print(index, char)
 ```
 
 **🎮 Project: Password Generator**
@@ -177,8 +175,7 @@ while count < 5:
 def greet(name="stranger"):
     return f"Hello {name}!"
 
-print(greet())            # Hello stranger!
-print(greet("Bilge"))     # Hello Bilge!
+print(greet())              # Hello stranger!
 print(greet(name="Bilge"))  # keyword argument
 ```
 
@@ -191,15 +188,16 @@ print(greet(name="Bilge"))  # keyword argument
 - Dynamic list generation with `['_'] * len(word)`
 - `enumerate()` for index-based replacement
 - Tracking game state across loop iterations
+- Already-guessed letter tracking
 
 **🎮 Project: Hangman Game**
-> A fully functional Hangman game. A random word is selected from a word list, displayed as blanks. The player guesses letters one by one — correct guesses reveal the letter in all matching positions, wrong guesses cost a life. The game tracks already-guessed letters and ends on win or game over.
+> A fully functional Hangman game. A random word is selected from a word list and displayed as blanks. The player guesses letters one by one — correct guesses reveal the letter in all matching positions, wrong guesses cost a life.
 
 ```python
-display = ['_'] * len(chosen_word)   # generate blanks
+display = ['_'] * len(chosen_word)
 for index, letter in enumerate(chosen_word):
     if letter == guess:
-        display[index] = guess       # reveal letter
+        display[index] = guess
 ```
 
 ---
@@ -217,23 +215,142 @@ for index, letter in enumerate(chosen_word):
 def total(*numbers):
     return sum(numbers)
 
-total(1, 2, 3, 4)    # 10 — any number of args
+total(1, 2, 3, 4)  # 10
 
 def describe(**info):
     for key, value in info.items():
         print(f"{key}: {value}")
-
-describe(name="Bilge", age=25)
 ```
 
 **🎮 Project: Caesar Cipher**
 > An encoder/decoder that shifts each letter in a message by a given number. Supports both uppercase and lowercase letters while leaving symbols and numbers unchanged. Runs in a loop until the user chooses to quit.
 
+---
+
+### ✅ Day 9 – Dictionaries & Silent Auction
+
+**Topics Covered:**
+- Dictionary creation, accessing, updating, and deleting keys
+- `.keys()`, `.values()`, `.items()` methods
+- Looping through dictionaries with `for`
+- Nested dictionaries
+- `max()` with `key=dict.get`
+
+**Key Concepts:**
 ```python
-def caesar(text, shift, direction):
-    # shift each letter, preserve non-alpha characters
-    # supports encode and decode directions
+person = {"name": "Bilge", "age": 25}
+person["city"] = "Istanbul"    # add key
+del person["city"]             # delete key
+
+for key, value in person.items():
+    print(f"{key}: {value}")
+
+winner = max(bids, key=bids.get)  # find key with highest value
 ```
+
+**🎮 Project: Silent Auction**
+> Multiple bidders enter their name and bid amount. All bids are stored in a dictionary. After all bids are collected, the program finds and announces the highest bidder using `max()` with `key=bids.get`.
+
+---
+
+### ✅ Day 10 – Functions as Outputs & Calculator
+
+**Topics Covered:**
+- Functions as first-class objects
+- Storing functions inside dictionaries
+- Calling functions dynamically
+- Recursive functions
+
+**Key Concepts:**
+```python
+def add(a, b): return a + b
+def subtract(a, b): return a - b
+
+operations = {"+": add, "-": subtract}
+operations["+"](3, 5)   # 8 — dynamic function call
+```
+
+**🎮 Project: Calculator**
+> A fully functional calculator that stores operations in a dictionary and calls them dynamically. Supports chained calculations where the result becomes the next first number. Handles division by zero gracefully.
+
+---
+
+### ✅ Day 11 – Blackjack Project
+
+**Topics Covered:**
+- Combining all beginner concepts in a complex project
+- Multiple functions working together
+- Game state management across loop iterations
+- Edge case handling (Blackjack, Bust, Ace switching)
+
+**🎮 Project: Blackjack Game**
+> A fully functional Blackjack card game. Handles Ace as 11 or 1 dynamically, dealer draws until 17, all win/lose/draw/blackjack/bust scenarios are covered.
+
+```python
+def calculate_score(hand):
+    if sum(hand) == 21 and len(hand) == 2:
+        return 0   # Blackjack
+    if 11 in hand and sum(hand) > 21:
+        hand.remove(11)
+        hand.append(1)  # Ace switches from 11 to 1
+    return sum(hand)
+```
+
+---
+
+### ✅ Day 12 – Scope & Number Guessing Game
+
+**Topics Covered:**
+- Local vs global scope
+- `global` keyword
+- Constants convention (`UPPER_CASE`)
+- Keeping functions pure — no global variables
+
+**Key Concepts:**
+```python
+x = 10  # global scope
+
+def my_func():
+    y = 5   # local scope
+    print(x)  # can access global ✅
+
+print(y)  # ❌ NameError — not accessible outside
+```
+
+**🎮 Project: Number Guessing Game**
+> The computer picks a random number between 1 and 100. The player chooses a difficulty (easy: 10 lives, hard: 5 lives) and guesses the number with "Too high" / "Too low" hints. No global variables used — scope is kept clean throughout.
+
+---
+
+### ✅ Day 13 – Debugging
+
+**Topics Covered:**
+- 3 types of errors: Syntax, Runtime, Logic
+- Print debugging technique
+- Python debugger (`pdb`)
+- `try` / `except` for error handling
+- Rubber duck debugging
+
+**Key Concepts:**
+```python
+# Syntax Error — caught before running
+if x == 10    # ❌ missing colon
+
+# Runtime Error — caught while running
+result = 10 / 0   # ❌ ZeroDivisionError
+
+# Logic Error — hardest to catch
+return total / len(numbers) + 1  # ❌ wrong result
+
+# try / except
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+```
+
+**🐛 Project: Debugging Challenge**
+> A set of three buggy functions covering all three error types — FizzBuzz (syntax), Celsius converter (runtime), and average calculator (logic). Each bug is identified, fixed, and explained.
 
 ---
 
@@ -241,7 +358,7 @@ def caesar(text, shift, direction):
 
 | Phase | Days | Status |
 |---|---|---|
-| 🟢 Beginner | Day 1 – Day 14 | 🔄 In Progress |
+| 🟢 Beginner | Day 1 – Day 14 | ✅ Almost Complete |
 | 🟡 Intermediate | Day 15 – Day 60 | ⏳ Upcoming |
 | 🔴 Advanced | Day 61 – Day 100 | ⏳ Upcoming |
 
@@ -253,6 +370,15 @@ def caesar(text, shift, direction):
 - Practice writing clean, readable, interview-ready code
 - Complete daily algorithm challenges and mini projects
 - Document every step for portfolio and future review
+
+---
+
+## 🛠️ Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
+![VS Code](https://img.shields.io/badge/Editor-VS%20Code-blue?logo=visualstudiocode)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 
 ---
 

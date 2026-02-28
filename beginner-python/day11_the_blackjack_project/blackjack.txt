@@ -1,0 +1,18 @@
+Project: Blackjack
+Write a fully functional Blackjack game.
+Rules:
+
+Use a function to deal a random card from the deck
+Use a function to calculate the score of a hand — handle Ace as 11 or 1
+Use a function to display the cards
+Player goes first — can "hit" or "stand"
+Dealer reveals hidden card after player stands — must hit under 17
+Compare scores and declare the winner
+Handle all edge cases:
+
+Blackjack (21 in first 2 cards) ✅
+Bust (over 21) ✅
+Ace switching from 11 to 1 ✅
+
+
+Ask if the player wants to play again
