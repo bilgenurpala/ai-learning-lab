@@ -1,10 +1,13 @@
 # AI Learning Lab
 
-> A structured, day-by-day learning journey from Python fundamentals to Machine Learning and AI engineering — documented with code, projects, and a detailed devlog.
+> A structured learning journey from Python fundamentals to AI engineering — documented with code, projects, and a detailed devlog. This repository is the central hub; all other repositories (bootcamp, FinTrack, Microsoft internship) are branches of this core.
 
-![Progress](https://img.shields.io/badge/Python_Basics-Day%2013%20of%20100-orange)
-![Phase](https://img.shields.io/badge/Phase-1%20Python%20Fundamentals-blue)
+![Phase](https://img.shields.io/badge/Phase-2%20ML%20%26%20Data%20Science-blue)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-active-4DABCF?logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-active-150458?logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-upcoming-F7931E?logo=scikit-learn&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-upcoming-EE4C2C?logo=pytorch&logoColor=white)
 ![VS Code](https://img.shields.io/badge/Editor-VS%20Code-blue?logo=visualstudiocode)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 
@@ -12,16 +15,183 @@
 
 ## About This Repository
 
-This repository documents a structured learning path from beginner Python to applied AI engineering. Each phase builds on the previous one, combining theory, hands-on exercises, and real projects. Progress is tracked daily in the [devlog](docs/devlog.md).
+This is the main hub of my AI engineering journey. I'm learning from zero to a job-ready level by **September 2025**, combining self-study, a 42-hour AI bootcamp (Pupilica), and a Microsoft Turkey AI Innovators internship.
 
-The full path:
+Progress is tracked daily in the [devlog](docs/devlog.md). Each topic has its own folder with clean, documented code.
 
-1. **Python Fundamentals** — syntax, data structures, OOP, algorithms in Python
-2. **DSA** — classic data structures and algorithm patterns
-3. **Math Foundations** — linear algebra and probability
-4. **Data Analysis** — NumPy and Pandas
-5. **Machine Learning** — supervised/unsupervised learning, model evaluation
-6. **AI & LLM Applications** — building production-grade AI systems with LLMs
+### Satellite Repositories
+| Repository | Purpose |
+|---|---|
+| [ai-learning-lab](.) | **This repo** — core self-study, detailed devlog, all phases |
+| pupilica-bootcamp | 42-hour AI bootcamp notes, exercises, final project |
+| fintrack | Personal finance tracker — Flask + Claude API, evolving with each phase |
+| microsoft-internship | Microsoft Turkey AI Innovators internship (starting ~June 2025) |
+
+---
+
+## Learning Program
+
+**April 27 – September 1, 2025 | ~30 hours/week**
+
+### Phase Overview
+
+| Phase | Period | Focus |
+|---|---|---|
+| **Phase 1** | Mar – Apr 2025 | Python Fundamentals ✅ |
+| **Phase 2** | Apr 27 – May 22 | Python + ML Foundations (+ Bootcamp) |
+| **Phase 3** | May 23 – Aug 3 | Deep Learning + NLP + LLM + AI Engineering |
+| **Phase 4** | Aug 4 – Sep 1 | MLOps + Deployment + Portfolio |
+
+### Weekly Schedule
+
+**Bootcamp days (Tue / Thu / Sat, April 28 – May 22):**
+- 10:00–13:00 → Personal study (pre-study bootcamp topic)
+- 18:00–21:00 → Bootcamp live session
+- 21:00–22:00 → Review & commit
+
+**Free days (Mon / Wed / Fri):**
+- 5 hours → Personal plan (see phase breakdown below)
+
+**Sunday:** Rest day — no studying.
+
+**Exception — May 2 & May 16:** Bootcamp runs 10:00–16:00. Those days are bootcamp only.
+
+---
+
+## Roadmap
+
+### ✅ Phase 1 — Python Fundamentals (Complete)
+*March 2025 | 100 Days of Python*
+
+Variables, data types, control flow, functions, OOP, modules, debugging.
+13 days completed with projects: Hangman, Blackjack, Caesar Cipher, Calculator, Password Generator.
+
+---
+
+### 🔄 Phase 2 — Python Advanced + ML Foundations (Apr 27 – May 22)
+
+**Week 1 (Apr 27 – May 3) — Python Advanced**
+- OOP deep dive: classes, inheritance, `__dunder__` methods
+- File I/O, `json`, `os`, `pathlib`
+- Error handling: `try/except/finally`
+- List/dict comprehensions, generators, decorators
+- 📦 Project: `stats_calculator.py` — mean, median, std, correlation from scratch
+
+**Week 2 (May 4 – May 10) — NumPy + Pandas**
+- NumPy: arrays, broadcasting, vectorized ops, linear algebra
+- Pandas: DataFrame, EDA, cleaning, groupby, merge
+- Matplotlib + Seaborn: distributions, heatmaps, pairplots
+- Plotly & Bokeh: interactive visualisation (bootcamp)
+- SQL basics (bootcamp)
+- 📦 Project: Titanic EDA notebook — full exploratory analysis with visualisations
+
+**Week 3 (May 11 – May 17) — Supervised ML**
+- ML concepts: features, labels, train/test split, overfitting
+- Linear Regression, Logistic Regression
+- Decision Trees, Random Forest
+- Metrics: MAE, RMSE, R², accuracy, F1, ROC-AUC
+- `Pipeline`, `GridSearchCV`, cross-validation
+- 📦 Project: Kaggle Titanic — first real submission
+
+**Week 4 (May 18 – May 22) — ML Advanced + Math Foundations**
+- Unsupervised: K-Means, PCA
+- Gradient descent from scratch
+- Linear algebra for ML: dot product, matrix ops, eigenvalues
+- Probability: distributions, Bayes theorem
+- 📦 Project: End-to-end ML pipeline (Customer Churn or similar)
+- 📦 Bootcamp final project: FinTrack v1.5
+
+---
+
+### ⏳ Phase 3 — Deep Learning + AI Engineering (May 23 – Aug 3)
+
+**Weeks 6–7 — PyTorch + Neural Networks**
+- `nn.Module`, training loop, DataLoader
+- Backpropagation, optimisers, loss functions
+- 📦 Project: MNIST digit classifier
+
+**Weeks 8–9 — Computer Vision**
+- CNN architecture, transfer learning
+- Hugging Face `timm`
+- 📦 Project: Custom image classifier
+
+**Weeks 10–11 — NLP + Transformers**
+- Tokenisation, embeddings, attention mechanism
+- Hugging Face Transformers: BERT fine-tuning
+- 📦 Project: Turkish tweet sentiment analysis
+
+**Weeks 12–13 — LLM + AI Engineering**
+- OpenAI / Anthropic API deep dive
+- RAG: vector databases (ChromaDB), embeddings, semantic search
+- LangChain or LlamaIndex pipelines
+- 📦 Project: Document chatbot (upload PDF, ask questions)
+
+**Week 14 — Generative AI + RL**
+- GAN fundamentals (bootcamp extended)
+- Reinforcement learning: Q-Learning, OpenAI Gym
+- Stable Diffusion API usage
+
+**June (parallel) — FinTrack v2**
+- Add ML models: spending prediction, anomaly detection
+- Improve frontend
+- Enhanced Claude API integration
+- Branch: `v2` → merge to `main` when complete
+
+---
+
+### ⏳ Phase 4 — MLOps + Portfolio (Aug 4 – Sep 1)
+
+**Weeks 15–16 — MLOps**
+- Experiment tracking: Weights & Biases
+- Model versioning: MLflow
+- FastAPI model serving
+- Docker deployment (building on existing knowledge)
+- 📦 Project: Deploy a Phase 3 model as a Docker + FastAPI service
+
+**Weeks 17–18 — Portfolio Sprint**
+- Hugging Face Spaces: publish model demos
+- Streamlit interactive demos
+- Polish all READMEs, add demo links
+- Update CV and LinkedIn
+- Integrate bootcamp certificate + Microsoft internship experience
+
+---
+
+## Projects Timeline
+
+| Project | Stack | Phase | Status |
+|---|---|---|---|
+| Stats Calculator | Pure Python | 2 | Upcoming |
+| Titanic EDA | Pandas, Seaborn | 2 | Upcoming |
+| Titanic Kaggle | Scikit-learn | 2 | Upcoming |
+| End-to-end ML Pipeline | Scikit-learn, Pandas | 2 | Upcoming |
+| FinTrack v1.5 | Flask, Claude API | 2 | Upcoming |
+| MNIST Classifier | PyTorch | 3 | Upcoming |
+| Image Classifier | PyTorch, Transfer Learning | 3 | Upcoming |
+| Turkish Sentiment Analysis | Hugging Face, BERT | 3 | Upcoming |
+| Document Chatbot (RAG) | LangChain, ChromaDB, LLM | 3 | Upcoming |
+| FinTrack v2 | Flask, ML, Claude API | 3 | Upcoming |
+| Deployed ML API | FastAPI, Docker, W&B | 4 | Upcoming |
+
+---
+
+## Resources
+
+Documentation-first approach — videos only when stuck.
+
+| Topic | Resource | Type |
+|---|---|---|
+| Python | [docs.python.org](https://docs.python.org) | Docs |
+| NumPy | [numpy.org/doc](https://numpy.org/doc) | Docs |
+| Pandas | [pandas.pydata.org/docs](https://pandas.pydata.org/docs) | Docs |
+| Scikit-learn | [scikit-learn.org/stable](https://scikit-learn.org/stable) | Docs |
+| PyTorch | [pytorch.org/docs](https://pytorch.org/docs) | Docs |
+| Hugging Face | [huggingface.co/docs](https://huggingface.co/docs) | Docs |
+| ML + Stats | [Kaggle Learn](https://www.kaggle.com/learn) | Interactive |
+| ML intuition | [StatQuest (YouTube)](https://www.youtube.com/@statquest) | Video (when stuck) |
+| DL intuition | [Andrej Karpathy (YouTube)](https://www.youtube.com/@AndrejKarpathy) | Video (when stuck) |
+| Math intuition | [3Blue1Brown (YouTube)](https://www.youtube.com/@3blue1brown) | Video (when stuck) |
+| Datasets | [Kaggle Datasets](https://www.kaggle.com/datasets) | Data |
 
 ---
 
@@ -31,236 +201,55 @@ The full path:
 ai-learning-lab/
 │
 ├── python/
-│   ├── basics/                          # Phase 1 — Python Fundamentals (Day 1–100)
-│   │   ├── day01_variables.py
-│   │   ├── day02_data_types.py
-│   │   ├── day03_control_flow_operators.py
-│   │   ├── day04_lists.py
-│   │   ├── day05_loops.py
-│   │   ├── day06_functions.py
-│   │   ├── day07_hangman/
-│   │   ├── day08_function_parametres.py
-│   │   ├── day09_dictionaries.py
-│   │   ├── day10_functions_outputs.py
-│   │   ├── day11_the_blackjack_project/
-│   │   ├── day12_scope_and_numberGuessing_project/
-│   │   ├── day13_debugging.py
-│   │   └── lizard_spock.py              # Bonus — Extended RPS project
-│   ├── intermediate/                    # Coming soon
-│   └── advanced/                        # Coming soon
+│   ├── basics/                    # Phase 1 — complete ✅
+│   ├── intermediate/              # Phase 2 — OOP, file I/O, comprehensions
+│   └── advanced/                  # Phase 2 — decorators, generators
 │
-├── dsa/                                 # Phase 2 — Data Structures & Algorithms
-├── math/                                # Phase 2 — Linear Algebra & Probability
-├── data-analysis/                       # Phase 2 — NumPy & Pandas
-├── machine-learning/                    # Phase 3 — Machine Learning
-├── ai-applications/                     # Phase 4 — AI & LLM Applications
+├── data-analysis/                 # Phase 2 — NumPy, Pandas, visualisation
+│   ├── numpy/
+│   ├── pandas/
+│   └── visualisation/
+│
+├── machine-learning/              # Phase 2–3
+│   ├── supervised/
+│   ├── unsupervised/
+│   └── projects/
+│
+├── deep-learning/                 # Phase 3
+│   ├── pytorch-basics/
+│   ├── computer-vision/
+│   └── nlp/
+│
+├── ai-engineering/                # Phase 3
+│   ├── llm-apis/
+│   ├── rag/
+│   └── agents/
+│
+├── mlops/                         # Phase 4
 │
 └── docs/
-    └── devlog.md                        # Day-by-day learning log (EN + TR)
+    └── devlog.md
 ```
-
----
-
-## Roadmap
-
-| Phase | Track | Topics | Status |
-|---|---|---|---|
-| 1 | Python Fundamentals | Variables, data types, control flow, functions, OOP, modules | In Progress |
-| 2 | Data Structures & Algorithms | Arrays, linked lists, trees, graphs, sorting, searching | Upcoming |
-| 2 | Linear Algebra | Vectors, matrices, transformations, eigenvalues | Upcoming |
-| 2 | Probability & Statistics | Distributions, Bayes, hypothesis testing | Upcoming |
-| 2 | NumPy & Pandas | Array ops, DataFrames, data wrangling, EDA | Upcoming |
-| 3 | Machine Learning | Regression, classification, clustering, model evaluation | Upcoming |
-| 4 | AI & LLM Applications | Prompt engineering, RAG, agents, fine-tuning | Upcoming |
-
----
-
-## Python Fundamentals — Progress Log
-
-### Day 1 — Variables
-
-- `print()` and basic output
-- Variables and dynamic typing
-- `snake_case` naming convention
-- Data types: `str`, `int`
-- f-strings and `input()` with type casting
-
-```python
-name = "Bilge"
-age = 25
-print(f"Hello {name}, you are {age} years old.")
-user_age = int(input("Enter your age: "))
-```
-
----
-
-### Day 2 — Data Types & String Manipulation
-
-- Primitive types: `int`, `float`, `str`, `bool`
-- `type()` and type casting
-- Arithmetic operators: `+`, `-`, `*`, `/`, `//`, `%`, `**`
-- String methods and manipulation
-
-```python
-print(type(3.14))   # <class 'float'>
-print(10 // 3)      # 3  — floor division
-print(2 ** 8)       # 256 — exponent
-```
-
----
-
-### Day 3 — Control Flow & Operators
-
-- `if`, `elif`, `else`
-- Comparison operators: `==`, `!=`, `>`, `<`, `>=`, `<=`
-- Logical operators: `and`, `or`, `not`
-- Nested conditions
-
-**Project: Treasure Island** — text-based adventure game built with nested conditionals.
-
----
-
-### Day 4 — Lists & Randomisation
-
-- List creation, indexing, negative indexing, slicing
-- `append()`, `remove()`, `len()`
-- `for` loop over lists
-- `random.choice()`, `random.shuffle()`
-
-**Project: Rock Paper Scissors** — computer picks randomly, all win/lose/draw outcomes handled.
-
----
-
-### Day 5 — Loops
-
-- `for` with `range(start, stop, step)`
-- `while` loop
-- `break`, `continue`, `pass`
-- `enumerate()` for index + value
-
-**Project: Password Generator** — random characters from letter/symbol/number sets, shuffled for security.
-
----
-
-### Day 6 — Functions
-
-- `def`, parameters, arguments
-- `return` statement
-- Default parameter values
-- Keyword arguments
-
-```python
-def greet(name="stranger"):
-    return f"Hello {name}!"
-```
-
----
-
-### Day 7 — Hangman Project
-
-- Combining loops, lists, functions, and randomisation
-- Dynamic list generation: `['_'] * len(word)`
-- `enumerate()` for index-based replacement
-- Game state tracking across loop iterations
-
-**Project: Hangman** — fully functional word-guessing game with lives, letter tracking, and ASCII art.
-
----
-
-### Day 8 — Function Parameters & Caesar Cipher
-
-- Positional vs keyword arguments
-- Default values
-- `*args` — unlimited positional arguments
-- `**kwargs` — unlimited keyword arguments
-
-**Project: Caesar Cipher** — encoder/decoder with letter shifting, runs in a loop until quit.
-
----
-
-### Day 9 — Dictionaries & Silent Auction
-
-- Dictionary CRUD: create, access, update, delete
-- `.keys()`, `.values()`, `.items()`
-- Looping through dictionaries
-- Nested dictionaries
-- `max()` with `key=dict.get`
-
-**Project: Silent Auction** — multiple bidders stored in a dict, winner found with `max()`.
-
----
-
-### Day 10 — Functions as Outputs & Calculator
-
-- Functions as first-class objects
-- Storing functions in dictionaries
-- Dynamic function calls
-- Recursive functions
-
-**Project: Calculator** — operations stored in a dict, chained calculations, division-by-zero guard.
-
----
-
-### Day 11 — Blackjack Project
-
-- Multi-function architecture
-- Game state management across iterations
-- Edge case handling: Blackjack, Bust, Ace (11 or 1)
-
-**Project: Blackjack** — full card game with dealer logic, dynamic Ace handling, all win/lose/draw/bust scenarios.
-
----
-
-### Day 12 — Scope & Number Guessing Game
-
-- Local vs global scope
-- `global` keyword
-- `UPPER_CASE` constants convention
-- Pure functions with no global state
-
-**Project: Number Guessing Game** — difficulty levels (easy/hard), hints, clean scope throughout.
-
----
-
-### Day 13 — Debugging
-
-- 3 error types: Syntax, Runtime, Logic
-- Print debugging
-- Python debugger (`pdb`)
-- `try` / `except` error handling
-- Rubber duck debugging
-
-**Project: Debugging Challenge** — three buggy functions covering all three error types, each identified and fixed.
-
----
-
-### Bonus — Rock Paper Scissors Lizard Spock
-
-Extension of the Day 4 RPS project. Two new choices added (Lizard, Spock), 10 win conditions handled with nested conditionals and emoji input.
 
 ---
 
 ## Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-coming_soon-lightgrey?logo=numpy)
-![Pandas](https://img.shields.io/badge/Pandas-coming_soon-lightgrey?logo=pandas)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-coming_soon-lightgrey?logo=scikit-learn)
+![NumPy](https://img.shields.io/badge/NumPy-4DABCF?logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![VS Code](https://img.shields.io/badge/Editor-VS%20Code-blue?logo=visualstudiocode)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 
 ---
 
-## Goals
+## Goal
 
-- Build a strong Python foundation with clean, readable code
-- Develop algorithmic thinking through DSA practice
-- Understand the math behind machine learning (linear algebra, probability)
-- Apply data analysis skills with NumPy and Pandas
-- Build and ship real Machine Learning and AI/LLM projects
-- Document every step publicly for accountability and portfolio
-
----
+Be job-ready as a junior AI engineer by September 2025 — with a strong GitHub portfolio, real deployed projects, bootcamp certification, and Microsoft internship experience.
 
 > *"An investment in knowledge pays the best interest."* — Benjamin Franklin
