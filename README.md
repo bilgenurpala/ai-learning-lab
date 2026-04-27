@@ -26,7 +26,7 @@ All progress is logged in the [devlog](docs/devlog.md).
 | **ai-learning-lab** | This repo — self-study hub, all phases, detailed devlog |
 | [pupilica-bootcamp](#) | 42-hour AI bootcamp (Apr 28 – May 22) — notes, exercises, final project |
 | [fintrack](#) | Personal finance tracker — Flask + Claude API, actively developed |
-| [microsoft-internship](#) | Microsoft Turkey AI Innovators internship — starting ~June 2025 |
+| [microsoft-internship](#) | Microsoft Turkey AI Innovators internship — starting ~June 2026 |
 
 ---
 
@@ -44,7 +44,7 @@ All progress is logged in the [devlog](docs/devlog.md).
 ## Phases
 
 ### ✅ Phase 1 — Python Fundamentals
-**March 2025**
+**March 2026**
 
 Built a solid Python foundation from scratch. Covered variables, data types, control flow, functions, OOP, scope, and debugging. Every topic was solidified through a project.
 
@@ -53,7 +53,7 @@ Built a solid Python foundation from scratch. Covered variables, data types, con
 ---
 
 ### 🔄 Phase 2 — ML Foundations
-**April 27 – May 22, 2025**
+**April 27 – May 22, 2026**
 
 Python advanced topics followed by the full data science stack. Runs in parallel with the Pupilica bootcamp (42 hours of live instruction).
 
@@ -64,7 +64,7 @@ Python advanced topics followed by the full data science stack. Runs in parallel
 ---
 
 ### ⏳ Phase 3 — Deep Learning & AI Engineering
-**May 23 – August 3, 2025**
+**May 23 – August 3, 2026**
 
 Core deep learning with PyTorch, NLP with Transformers, and production-grade AI application development. FinTrack v2 is developed in parallel during June.
 
@@ -75,7 +75,7 @@ Core deep learning with PyTorch, NLP with Transformers, and production-grade AI 
 ---
 
 ### ⏳ Phase 4 — MLOps & Portfolio
-**August 4 – September 1, 2025**
+**August 4 – September 1, 2026**
 
 Ship everything. Experiment tracking, model versioning, containerised deployment, and a polished portfolio.
 
