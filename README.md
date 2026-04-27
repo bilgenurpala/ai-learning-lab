@@ -34,7 +34,7 @@ All progress is logged in the [devlog](docs/devlog.md).
 
 | Phase | Period | Focus | Status |
 |---|---|---|---|
-| 1 — Python Fundamentals | Mar 2025 | Core Python, OOP, debugging | ✅ Complete |
+| 1 — Python Fundamentals | Mar 2026 | Core Python, OOP, debugging | ✅ Complete |
 | 2 — ML Foundations | Apr 27 – May 22 | NumPy, Pandas, Scikit-learn + Bootcamp | 🔄 In Progress |
 | 3 — Deep Learning & AI Engineering | May 23 – Aug 3 | PyTorch, Transformers, LLMs, RAG | ⏳ Upcoming |
 | 4 — MLOps & Portfolio | Aug 4 – Sep 1 | FastAPI, Docker, W&B, deployment | ⏳ Upcoming |
