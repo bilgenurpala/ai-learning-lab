@@ -15,7 +15,7 @@
 
 ## Overview
 
-This is the central hub of my AI engineering journey — running **April 2025 to September 2025**, ~30 hours/week. The goal: go from Python fundamentals to a job-ready junior AI engineer, combining structured self-study, a 42-hour AI bootcamp (Pupilica), and a Microsoft Turkey AI Innovators internship.
+This is the central hub of my AI engineering journey — running **March 2026 to September 2026**, ~30 hours/week. The goal: go from Python fundamentals to a job-ready junior AI engineer, combining structured self-study, a 42-hour AI bootcamp (Pupilica), and a Microsoft Turkey AI Innovators internship.
 
 All progress is logged in the [devlog](docs/devlog.md).
 
@@ -24,9 +24,9 @@ All progress is logged in the [devlog](docs/devlog.md).
 | Repository | Description |
 |---|---|
 | **ai-learning-lab** | This repo — self-study hub, all phases, detailed devlog |
-| [pupilica-bootcamp](#) | 42-hour AI bootcamp (Apr 28 – May 22) — notes, exercises, final project |
-| [fintrack](#) | Personal finance tracker — Flask + Claude API, actively developed |
-| [microsoft-internship](#) | Microsoft Turkey AI Innovators internship — starting ~June 2025 |
+| [pupilica-ai-bootcamp](https://github.com/bilgenurpala/pupilica-ai-bootcamp) | 42-hour AI bootcamp (Apr 28 – May 22, 2026) — notes, exercises, assignments |
+| **fintrack** | Personal finance tracker — Flask + Claude API *(repo coming soon)* |
+| **microsoft-ai-project** | Microsoft Turkey AI Innovators internship project *(repo coming soon)* |
 
 ---
 
@@ -34,54 +34,70 @@ All progress is logged in the [devlog](docs/devlog.md).
 
 | Phase | Period | Focus | Status |
 |---|---|---|---|
-| 1 — Python Fundamentals | Mar 2025 | Core Python, OOP, debugging | ✅ Complete |
-| 2 — ML Foundations | Apr 27 – May 22 | NumPy, Pandas, Scikit-learn + Bootcamp | 🔄 In Progress |
-| 3 — Deep Learning & AI Engineering | May 23 – Aug 3 | PyTorch, Transformers, LLMs, RAG | ⏳ Upcoming |
-| 4 — MLOps & Portfolio | Aug 4 – Sep 1 | FastAPI, Docker, W&B, deployment | ⏳ Upcoming |
+| 1 — Python Fundamentals | Mar 2026 | Core Python, OOP, debugging, projects | ✅ Complete |
+| 2 — ML & Data Science | Apr 27 – May 22, 2026 | NumPy, Pandas, Scikit-learn + Pupilica Bootcamp | 🔄 In Progress |
+| 3 — Deep Learning & AI Engineering | May 23 – Aug 3, 2026 | PyTorch, Transformers, LLMs, RAG, FinTrack v2 | ⏳ Upcoming |
+| 4 — MLOps & Portfolio | Aug 4 – Sep 1, 2026 | FastAPI, Docker, W&B, deployment | ⏳ Upcoming |
 
 ---
 
 ## Phases
 
 ### ✅ Phase 1 — Python Fundamentals
-**March 2025**
+**March 2026**
 
-Built a solid Python foundation from scratch. Covered variables, data types, control flow, functions, OOP, scope, and debugging. Every topic was solidified through a project.
+Built a solid Python foundation from scratch alongside other projects and an internship. Covered variables, data types, control flow, functions, OOP, scope, and debugging. Every topic was solidified through a project.
 
-**Projects:** Hangman, Blackjack, Caesar Cipher, Calculator, Password Generator, Silent Auction, Higher or Lower
+**Platforms:** Codedex · HackerRank · Exercism · 100 Days of Python (Udemy)
+
+**Projects:** Hangman · Blackjack · Caesar Cipher · Calculator · Password Generator · Silent Auction · Higher or Lower · Rock Paper Scissors Lizard Spock
 
 ---
 
-### 🔄 Phase 2 — ML Foundations
-**April 27 – May 22, 2025**
+### 🔄 Phase 2 — ML & Data Science
+**April 27 – May 22, 2026**
 
-Python advanced topics followed by the full data science stack. Runs in parallel with the Pupilica bootcamp (42 hours of live instruction).
+Python advanced topics followed by the full data science stack. Runs in parallel with the Pupilica bootcamp (42 hours of live instruction across 12 sessions).
 
-**Topics:** OOP deep dive, file I/O, comprehensions, NumPy, Pandas, Matplotlib, Seaborn, Plotly, SQL, Scikit-learn, K-Means, PCA, gradient descent, probability
+**Topics:** List comprehension, file I/O, OOP deep dive, NumPy, Pandas, Matplotlib, Seaborn, Plotly, SQL, Scikit-learn, K-Means, PCA, cross-validation, hyperparameter tuning
 
-**Projects:** Stats Calculator, Titanic EDA, Kaggle Titanic submission, End-to-end ML pipeline, FinTrack v1.5
+**Platforms:** DataCamp · Codedex · HackerRank · Exercism · Codewars
+
+**Progress:**
+
+| Course / Topic | Location | Status |
+|---|---|---|
+| Python Basics | [`python/python_basics.ipynb`](python/python_basics.ipynb) | ✅ Done |
+| Python Intermediate | [`python/python_intermediate.ipynb`](python/python_intermediate.ipynb) | ✅ Done |
+| Data Manipulation with Pandas | [`data-analysis/pandas/data_manipulation.ipynb`](data-analysis/pandas/data_manipulation.ipynb) | ✅ Done |
+| Joining Data with Pandas | `data-analysis/pandas/` | 🔄 In Progress |
+| NumPy | `data-analysis/numpy/` | ⏳ Upcoming |
+| Visualisation | `data-analysis/visualisation/` | ⏳ Upcoming |
+| Scikit-learn | `machine-learning/` | ⏳ Upcoming |
+
+**Projects:** EDA on e-commerce dataset · Titanic ML pipeline · End-to-end Scikit-learn project · FinTrack v1.5
 
 ---
 
 ### ⏳ Phase 3 — Deep Learning & AI Engineering
-**May 23 – August 3, 2025**
+**May 23 – August 3, 2026**
 
-Core deep learning with PyTorch, NLP with Transformers, and production-grade AI application development. FinTrack v2 is developed in parallel during June.
+Core deep learning with PyTorch and NLP with Transformers, followed by production-grade AI application development. FinTrack v2 and the Microsoft AI Innovators internship project run in parallel.
 
-**Topics:** PyTorch, CNNs, transfer learning, BERT, Hugging Face, LLM APIs, RAG, LangChain, ChromaDB, GANs, Reinforcement Learning
+**Topics:** PyTorch, CNNs, transfer learning, BERT, Hugging Face, LLM APIs, RAG, LangChain, ChromaDB, multi-agent systems
 
-**Projects:** MNIST classifier, Image classifier, Turkish tweet sentiment analysis, Document chatbot (RAG), FinTrack v2
+**Projects:** MNIST classifier · Image classifier · Turkish tweet sentiment analysis · Context-Aware AI Agent · Document chatbot (RAG) · FinTrack v2
 
 ---
 
 ### ⏳ Phase 4 — MLOps & Portfolio
-**August 4 – September 1, 2025**
+**August 4 – September 1, 2026**
 
-Ship everything. Experiment tracking, model versioning, containerised deployment, and a polished portfolio.
+Ship everything. Experiment tracking, model versioning, containerised deployment, and a polished portfolio ready for junior AI engineer applications.
 
 **Topics:** Weights & Biases, MLflow, FastAPI, Docker, Hugging Face Spaces, Streamlit
 
-**Projects:** Deployed ML API (Docker + FastAPI), interactive model demos
+**Projects:** Deployed ML API (Docker + FastAPI) · Interactive model demos · Portfolio site
 
 ---
 
@@ -89,19 +105,19 @@ Ship everything. Experiment tracking, model versioning, containerised deployment
 
 | Project | Stack | Phase | Status |
 |---|---|---|---|
-| Hangman, Blackjack, Caesar Cipher, Calculator... | Python | 1 | ✅ Done |
-| Higher or Lower | Python | 1 | ✅ Done |
-| Stats Calculator | Python | 2 | Upcoming |
-| Titanic EDA | Pandas, Seaborn | 2 | Upcoming |
-| Kaggle Titanic | Scikit-learn | 2 | Upcoming |
-| End-to-end ML Pipeline | Scikit-learn, Pandas | 2 | Upcoming |
-| FinTrack v1.5 | Flask, Claude API | 2 | Upcoming |
-| MNIST Classifier | PyTorch | 3 | Upcoming |
-| Image Classifier | PyTorch, Transfer Learning | 3 | Upcoming |
-| Turkish Sentiment Analysis | Hugging Face, BERT | 3 | Upcoming |
-| Document Chatbot (RAG) | LangChain, ChromaDB | 3 | Upcoming |
-| FinTrack v2 | Flask, ML, Claude API | 3 | Upcoming |
-| Deployed ML API | FastAPI, Docker, W&B | 4 | Upcoming |
+| Hangman, Blackjack, Caesar Cipher, Calculator, Password Generator, Silent Auction | Python | 1 | ✅ Done |
+| Rock Paper Scissors Lizard Spock, Higher or Lower | Python | 1 | ✅ Done |
+| EDA — E-commerce Dataset | Pandas, Seaborn | 2 | 🔄 In Progress |
+| Titanic ML Pipeline | Scikit-learn, Pandas | 2 | ⏳ Upcoming |
+| End-to-end ML Pipeline | Scikit-learn, Pandas | 2 | ⏳ Upcoming |
+| FinTrack v1.5 | Flask, Claude API | 2 | ⏳ Upcoming |
+| MNIST Classifier | PyTorch | 3 | ⏳ Upcoming |
+| Image Classifier | PyTorch, Transfer Learning | 3 | ⏳ Upcoming |
+| Turkish Sentiment Analysis | Hugging Face, BERT | 3 | ⏳ Upcoming |
+| Context-Aware AI Agent | LangChain, ChromaDB, Claude API | 3 | ⏳ Upcoming |
+| Document Chatbot (RAG) | LangChain, ChromaDB | 3 | ⏳ Upcoming |
+| FinTrack v2 | Flask, ML, Claude API | 3 | ⏳ Upcoming |
+| Deployed ML API | FastAPI, Docker, W&B | 4 | ⏳ Upcoming |
 
 ---
 
@@ -110,32 +126,35 @@ Ship everything. Experiment tracking, model versioning, containerised deployment
 ```
 ai-learning-lab/
 │
-├── python/
-│   ├── basics/              # Phase 1 ✅
-│   ├── intermediate/        # Phase 2
-│   └── advanced/            # Phase 2
+├── python/                          # Phase 1 ✅
+│   ├── python_basics.ipynb
+│   ├── python_intermediate.ipynb
+│   └── sales.csv
 │
-├── data-analysis/           # Phase 2
-│   ├── numpy/
+├── data-analysis/                   # Phase 2
 │   ├── pandas/
+│   │   ├── data_manipulation.ipynb  ✅
+│   │   ├── Untitled.ipynb           🔄 (Joining Data with Pandas)
+│   │   └── [datasets]
+│   ├── numpy/
 │   └── visualisation/
 │
-├── machine-learning/        # Phase 2–3
+├── machine-learning/                # Phase 2–3
 │   ├── supervised/
 │   ├── unsupervised/
 │   └── projects/
 │
-├── deep-learning/           # Phase 3
+├── deep-learning/                   # Phase 3
 │   ├── pytorch-basics/
 │   ├── computer-vision/
 │   └── nlp/
 │
-├── ai-engineering/          # Phase 3
+├── ai-engineering/                  # Phase 3
 │   ├── llm-apis/
 │   ├── rag/
 │   └── agents/
 │
-├── mlops/                   # Phase 4
+├── mlops/                           # Phase 4
 │
 └── docs/
     └── devlog.md
@@ -155,6 +174,8 @@ Documentation-first — videos only when stuck.
 | Scikit-learn | [scikit-learn.org/stable](https://scikit-learn.org/stable) |
 | PyTorch | [pytorch.org/docs](https://pytorch.org/docs) |
 | Hugging Face | [huggingface.co/docs](https://huggingface.co/docs) |
+| DataCamp | [datacamp.com](https://www.datacamp.com) |
+| Codedex | [codedex.io](https://www.codedex.io) |
 | ML & Stats | [Kaggle Learn](https://www.kaggle.com/learn) |
 | ML intuition | [StatQuest](https://www.youtube.com/@statquest) |
 | DL intuition | [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) |
