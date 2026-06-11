@@ -8,6 +8,29 @@ A day-by-day record of what I learned, built, and figured out.
 
 ---
 
+### 20260611 — DataCamp Courses Completed & Documentation Refactored
+**Status:** ✅ Done
+
+**What I did:**
+- Completed the remaining advanced topics of **Joining Data with pandas** in [joining_data.ipynb](file:///c:/Programming/Ai%20-%20Engineer/ai-learning-lab/data-analysis/pandas/joining_data.ipynb) (semi/anti-joins, concatenations, validation parameters, ordered/asof merges, and wide-to-long melting).
+- Developed 3 highly detailed, interactive Jupyter Notebooks documenting course notes and executable code scripts:
+  - [working_with_openai_api.ipynb](file:///c:/Programming/Ai%20-%20Engineer/ai-learning-lab/ai-engineering/llm-apis/working_with_openai_api.ipynb) (Completions API, custom parameter tuning, token counting with `tiktoken`, JSON mode, and Moderation safety checking).
+  - [embeddings_openai_api.ipynb](file:///c:/Programming/Ai%20-%20Engineer/ai-learning-lab/ai-engineering/rag/embeddings_openai_api.ipynb) (Vector embedding dimensions pruning, Cosine/Euclidean similarity searches, 2D scatter plotting of t-SNE/PCA projections using Matplotlib, Logistic Regression text classification, and K-Means clustering).
+  - [intro_to_data_security.ipynb](file:///c:/Programming/Ai%20-%20Engineer/ai-learning-lab/cybersecurity/datacamp-notes/intro_to_data_security.ipynb) (CIA Triad, GDPR/HIPAA/CCPA compliances, symmetric/asymmetric cryptosystems, password salting/hashing, dynamic data masking, SQLi parameterized query prevention, and SIEM incident monitoring).
+- Completed the complete refactoring of the repository documentation (Root and all subfolders) adding clickable tech banners, flat-square shields.io progress badges, detailed LaTeX equations, and vector SVG flowcharts.
+- Cleaned up calendar dates and replaced the `fintrack` project references with a placeholder for the upcoming **FlyRank Analytics Platform** corporate integration.
+
+**What I learned:**
+- Pre-calculating tokens using `tiktoken` allows for precise API budgeting prior to calling LLM endpoints.
+- Dimensionality pruning via the OpenAI `dimensions` parameter preserves semantic similarities while significantly optimizing storage size and search lookup speeds.
+- Adding cryptographically secure random salts prevents password cracking from standard dictionary or rainbow table attacks.
+- Parameterized database statements ensure user input is parsed strictly as parameters, neutralizing SQL Injection vulnerability vectors.
+
+**What's next:**
+- Move forward to the classical Machine Learning modules (Scikit-learn) and NumPy foundations.
+
+---
+
 ### 20260505 — Intermediate Python | DataCamp Progress
 **Status:** 🔄 In Progress
 
@@ -68,15 +91,15 @@ The goal is clear: by September 1, 2026, I want to be job-ready as a junior AI e
 - Self-study: ~30 hours/week across all phases
 
 **The full path:**
-- Phase 2 (now – May 22): Python advanced + full ML stack, running alongside the bootcamp
-- Phase 3 (May 23 – Aug 3): Deep learning, NLP, Transformers, LLMs, RAG, FinTrack v2
-- Phase 4 (Aug 4 – Sep 1): MLOps, deployment, portfolio polish
+- Phase 2: Python advanced + full ML stack, running alongside the bootcamp
+- Phase 3: Deep learning, NLP, Transformers, LLMs, RAG
+- Phase 4: MLOps, deployment, portfolio polish
 
 **Repository structure from here:**
 - `ai-learning-lab` — this repo, central hub, detailed devlog
 - [`pupilica-ai-bootcamp`](https://github.com/bilgenurpala/pupilica-ai-bootcamp) — bootcamp notes, exercises, assignments
-- `fintrack` — v1.5 by end of May, v2 by end of June *(repo coming soon)*
-- `microsoft-ai-project` — Context-Aware AI Agent, starting ~late June 2026 *(repo coming soon)*
+- `flyrank-project` — Future project for the FlyRank institution *(repo coming soon)*
+- `microsoft-ai-project` — Context-Aware AI Agent *(repo coming soon)*
 
 The approach stays the same: documentation and code over videos, build things rather than just watch them, commit every day.
 

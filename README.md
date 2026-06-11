@@ -1,186 +1,155 @@
-# AI Learning Lab
+[![AI & Cyber-AI Learning Lab Hub](assets/hub_banner.png)](README.md)
 
-> Structured self-study from Python fundamentals to AI engineering — documented with code, projects, and a daily devlog.
+# AI & Cyber-AI Learning Lab
 
-![Phase](https://img.shields.io/badge/Phase-2%20ML%20%26%20Data%20Science-blue)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-4DABCF?logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+> The master control center of my journey into AI Engineering and Cybersecurity. This repository serves as the central hub for learning notes, structured DataCamp tracks, and indexes modular projects hosted in dedicated repositories.
 
----
-
-## Overview
-
-This is the central hub of my AI engineering journey — running **March 2026 to September 2026**, ~30 hours/week. The goal: go from Python fundamentals to a job-ready junior AI engineer, combining structured self-study, a 42-hour AI bootcamp (Pupilica), and a Microsoft Turkey AI Innovators internship.
-
-All progress is logged in the [devlog](docs/devlog.md).
-
-### Repositories
-
-| Repository | Description |
-|---|---|
-| **ai-learning-lab** | This repo — self-study hub, all phases, detailed devlog |
-| [pupilica-ai-bootcamp](https://github.com/bilgenurpala/pupilica-ai-bootcamp) | 42-hour AI bootcamp (Apr 28 – May 22, 2026) — notes, exercises, assignments |
-| **fintrack** | Personal finance tracker — Flask + Claude API *(repo coming soon)* |
-| **microsoft-ai-project** | Microsoft Turkey AI Innovators internship project *(repo coming soon)* |
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)](https://github.com/bilgenurpala/ai-learning-lab)
+[![DataCamp Tracks](https://img.shields.io/badge/DataCamp-Structured-orange?logo=datacamp&logoColor=white&style=flat-square)](https://www.datacamp.com)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white&style=flat-square)](python/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=flat-square)](deep-learning/)
+[![Cybersecurity](https://img.shields.io/badge/Cybersecurity-AI_Security-red?logo=target&logoColor=white&style=flat-square)](cybersecurity/)
 
 ---
 
-## Roadmap
+## 📌 Overview
 
-| Phase | Period | Focus | Status |
-|---|---|---|---|
-| 1 — Python Fundamentals | Mar 2026 | Core Python, OOP, debugging, projects | ✅ Complete |
-| 2 — ML & Data Science | Apr 27 – May 22, 2026 | NumPy, Pandas, Scikit-learn + Pupilica Bootcamp | 🔄 In Progress |
-| 3 — Deep Learning & AI Engineering | May 23 – Aug 3, 2026 | PyTorch, Transformers, LLMs, RAG, FinTrack v2 | ⏳ Upcoming |
-| 4 — MLOps & Portfolio | Aug 4 – Sep 1, 2026 | FastAPI, Docker, W&B, deployment | ⏳ Upcoming |
+This repository is the central brain of my intensive technical mastery program (~30 hours/week), focusing on two highly synergistic fields:
 
----
+1. **AI Engineering (Core Track):** Moving from Python fundamentals to Deep Learning, RAG, and MLOps using structured DataCamp courses and hands-on projects.
+2. **Cybersecurity & AI Security (Parallel Track):** Understanding security fundamentals and network protocols, and exploring the intersection of **AI for Security** (anomaly detection) and **Security for AI** (LLM safety/OWASP).
 
-## Phases
+This repo acts as a **Master Hub**. To keep the development clean, all major projects and tools are built in **separate, dedicated GitHub repositories** and are linked dynamically below.
 
-### ✅ Phase 1 — Python Fundamentals
-**March 2026**
-
-Built a solid Python foundation from scratch alongside other projects and an internship. Covered variables, data types, control flow, functions, OOP, scope, and debugging. Every topic was solidified through a project.
-
-**Platforms:** Codedex · HackerRank · Exercism · 100 Days of Python (Udemy)
-
-**Projects:** Hangman · Blackjack · Caesar Cipher · Calculator · Password Generator · Silent Auction · Higher or Lower · Rock Paper Scissors Lizard Spock
+All progress is logged in the [Devlog](docs/devlog.md).
 
 ---
 
-### 🔄 Phase 2 — ML & Data Science
-**April 27 – May 22, 2026**
+## 🗺️ Topic-Based Roadmap
 
-Python advanced topics followed by the full data science stack. Runs in parallel with the Pupilica bootcamp (42 hours of live instruction across 12 sessions).
+To ensure deep conceptual mastery, this roadmap is structured around core topic benchmarks rather than rigid calendar dates. Both AI and Cybersecurity are learned in parallel tracks.
 
-**Topics:** List comprehension, file I/O, OOP deep dive, NumPy, Pandas, Matplotlib, Seaborn, Plotly, SQL, Scikit-learn, K-Means, PCA, cross-validation, hyperparameter tuning
-
-**Platforms:** DataCamp · Codedex · HackerRank · Exercism · Codewars
-
-**Progress:**
-
-| Course / Topic | Location | Status |
-|---|---|---|
-| Python Basics | [`python/python_basics.ipynb`](python/python_basics.ipynb) | ✅ Done |
-| Python Intermediate | [`python/python_intermediate.ipynb`](python/python_intermediate.ipynb) | ✅ Done |
-| Data Manipulation with Pandas | [`data-analysis/pandas/data_manipulation.ipynb`](data-analysis/pandas/data_manipulation.ipynb) | ✅ Done |
-| Joining Data with Pandas | `data-analysis/pandas/` | 🔄 In Progress |
-| NumPy | `data-analysis/numpy/` | ⏳ Upcoming |
-| Visualisation | `data-analysis/visualisation/` | ⏳ Upcoming |
-| Scikit-learn | `machine-learning/` | ⏳ Upcoming |
-
-**Projects:** EDA on e-commerce dataset · Titanic ML pipeline · End-to-end Scikit-learn project · FinTrack v1.5
+| Phase | AI & Data Science Track (DataCamp Core) | Cybersecurity Track (DataCamp Parallel) | Cyber-AI Crossover & Internship Projects | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **Phase 1: Fundamentals** | Python Programming, OOP, Debugging | Basic IT & Security Concepts | 🔗 Command Line & Scripting Utils *(External Repo)* | 🔄 *Siber & Proje için Beklemede* |
+| **Phase 2: Data Science** | Data Manipulation & Joining (Pandas), NumPy, Data Visualisation | Introduction to Cybersecurity, Network Security Basics | 🔗 Log Parsing & Data Wrangling Tools *(External Repo)* | 🔄 In Progress |
+| **Phase 3: Machine Learning** | Supervised & Unsupervised Learning (Scikit-learn) | Python for Cybersecurity, Security Log Analysis | 🛡️ **Project 1:** ML-Driven Network Intrusion Detection *(External Repo)* | ⏳ Upcoming |
+| **Phase 4: Deep Learning & AI** | Deep Learning with PyTorch, NLP, Transformers, LLMs, RAG | Security for AI Systems, OWASP LLM Top 10 | 🛡️ **Project 2:** Context-Aware AI Threat Intel Agent (Microsoft Internship) | ⏳ Upcoming |
+| **Phase 5: MLOps & Deployment** | FastAPI, Docker, Model Deployment, API Security | Secure API Auditing & Container Hardening | 🛡️ **Project 3:** Securely Deployed Dockerized ML API *(External Repo)* | ⏳ Upcoming |
 
 ---
 
-### ⏳ Phase 3 — Deep Learning & AI Engineering
-**May 23 – August 3, 2026**
+## 📊 Course & Notebook Progress
 
-Core deep learning with PyTorch and NLP with Transformers, followed by production-grade AI application development. FinTrack v2 and the Microsoft AI Innovators internship project run in parallel.
+Here is the exact progression of my structured DataCamp learning and their respective Jupyter Notebooks in this workspace.
 
-**Topics:** PyTorch, CNNs, transfer learning, BERT, Hugging Face, LLM APIs, RAG, LangChain, ChromaDB, multi-agent systems
+### 🐍 AI & Data Science Track
 
-**Projects:** MNIST classifier · Image classifier · Turkish tweet sentiment analysis · Context-Aware AI Agent · Document chatbot (RAG) · FinTrack v2
+| Course / Topic | Notebook / Folder / Note | Status |
+| :--- | :--- | :--- |
+| Python Basics | [![Notebook](https://img.shields.io/badge/Jupyter-Notebook-blue?logo=jupyter&style=flat-square)](python/python_basics.ipynb) | ✅ Done |
+| Python Intermediate | [![Notebook](https://img.shields.io/badge/Jupyter-Notebook-blue?logo=jupyter&style=flat-square)](python/python_intermediate.ipynb) | ✅ Done |
+| Data Manipulation with Pandas | [![Notebook](https://img.shields.io/badge/Jupyter-Notebook-blue?logo=jupyter&style=flat-square)](data-analysis/pandas/data_manipulation.ipynb) | ✅ Done |
+| Joining Data with Pandas | [![Notebook](https://img.shields.io/badge/Jupyter-Notebook-blue?logo=jupyter&style=flat-square)](data-analysis/pandas/joining_data.ipynb) | ✅ Done |
+| Working with the OpenAI API | [![Notebook](https://img.shields.io/badge/Jupyter-Notebook-blue?logo=jupyter&style=flat-square)](ai-engineering/llm-apis/working_with_openai_api.ipynb) | ✅ Done |
+| Introduction to Embeddings with the OpenAI API | [![Notebook](https://img.shields.io/badge/Jupyter-Notebook-blue?logo=jupyter&style=flat-square)](ai-engineering/rag/embeddings_openai_api.ipynb) | ✅ Done |
+| NumPy Foundations | [![Folder](https://img.shields.io/badge/Module-Folder-lightgrey?logo=github&style=flat-square)](data-analysis/) | ⏳ Upcoming |
+| Data Visualisation | [![Folder](https://img.shields.io/badge/Module-Folder-lightgrey?logo=github&style=flat-square)](data-analysis/) | ⏳ Upcoming |
+| Scikit-learn (ML) | [![Folder](https://img.shields.io/badge/Module-Folder-lightgrey?logo=github&style=flat-square)](machine-learning/) | ⏳ Upcoming |
 
----
+### 🛡️ Cybersecurity Track
 
-### ⏳ Phase 4 — MLOps & Portfolio
-**August 4 – September 1, 2026**
-
-Ship everything. Experiment tracking, model versioning, containerised deployment, and a polished portfolio ready for junior AI engineer applications.
-
-**Topics:** Weights & Biases, MLflow, FastAPI, Docker, Hugging Face Spaces, Streamlit
-
-**Projects:** Deployed ML API (Docker + FastAPI) · Interactive model demos · Portfolio site
-
----
-
-## Projects
-
-| Project | Stack | Phase | Status |
-|---|---|---|---|
-| Hangman, Blackjack, Caesar Cipher, Calculator, Password Generator, Silent Auction | Python | 1 | ✅ Done |
-| Rock Paper Scissors Lizard Spock, Higher or Lower | Python | 1 | ✅ Done |
-| EDA — E-commerce Dataset | Pandas, Seaborn | 2 | 🔄 In Progress |
-| Titanic ML Pipeline | Scikit-learn, Pandas | 2 | ⏳ Upcoming |
-| End-to-end ML Pipeline | Scikit-learn, Pandas | 2 | ⏳ Upcoming |
-| FinTrack v1.5 | Flask, Claude API | 2 | ⏳ Upcoming |
-| MNIST Classifier | PyTorch | 3 | ⏳ Upcoming |
-| Image Classifier | PyTorch, Transfer Learning | 3 | ⏳ Upcoming |
-| Turkish Sentiment Analysis | Hugging Face, BERT | 3 | ⏳ Upcoming |
-| Context-Aware AI Agent | LangChain, ChromaDB, Claude API | 3 | ⏳ Upcoming |
-| Document Chatbot (RAG) | LangChain, ChromaDB | 3 | ⏳ Upcoming |
-| FinTrack v2 | Flask, ML, Claude API | 3 | ⏳ Upcoming |
-| Deployed ML API | FastAPI, Docker, W&B | 4 | ⏳ Upcoming |
+| Course / Topic | Location / Note | Status |
+| :--- | :--- | :--- |
+| Introduction to Cybersecurity | [![Markdown](https://img.shields.io/badge/Doc-Markdown-red?logo=markdown&style=flat-square)](cybersecurity/datacamp-notes/intro_to_cyber.md) | 🔄 Starting |
+| Introduction to Data Security | [![Notebook](https://img.shields.io/badge/Jupyter-Notebook-blue?logo=jupyter&style=flat-square)](cybersecurity/datacamp-notes/intro_to_data_security.ipynb) | ✅ Done |
+| Network Security Basics | [![Markdown](https://img.shields.io/badge/Doc-Markdown-lightgrey?logo=markdown&style=flat-square)](cybersecurity/datacamp-notes/network_security.md) | ⏳ Upcoming |
+| Python for Cybersecurity | [![Folder](https://img.shields.io/badge/Module-Folder-lightgrey?logo=github&style=flat-square)](cybersecurity/) | ⏳ Upcoming |
+| Security for AI Systems | [![Folder](https://img.shields.io/badge/Module-Folder-lightgrey?logo=github&style=flat-square)](cybersecurity/) | ⏳ Upcoming |
 
 ---
 
-## Repository Structure
+## 📂 Repository Structure
 
-```
+Each module contains structured study notes, exercises, and conceptual deep-dives. Click on a module banner inside its directory to return here, or browse using the badges.
+
+```text
 ai-learning-lab/
 │
-├── python/                          # Phase 1 ✅
-│   ├── python_basics.ipynb
-│   ├── python_intermediate.ipynb
-│   └── sales.csv
+├── python/                              # Phase 1 🐍 (Python complete)
+│   ├── python_basics.ipynb              # Basic control flows, collections, OOP introduction
+│   └── python_intermediate.ipynb        # Ecosystem, custom functions, *args/**kwargs, error handling
 │
-├── data-analysis/                   # Phase 2
-│   ├── pandas/
-│   │   ├── data_manipulation.ipynb  ✅
-│   │   ├── Untitled.ipynb           🔄 (Joining Data with Pandas)
-│   │   └── [datasets]
-│   ├── numpy/
-│   └── visualisation/
+├── data-analysis/                       # Phase 2 📊 (Current focus)
+│   ├── pandas/                          # Data manipulation, merging (joining_data.ipynb ✅), aggregations
+│   └── numpy/                           # Multidimensional array structures (Upcoming)
 │
-├── machine-learning/                # Phase 2–3
-│   ├── supervised/
-│   ├── unsupervised/
-│   └── projects/
+├── machine-learning/                    # Phase 3 🤖 (Classical ML models and preprocessing)
+│   ├── supervised/                      # Classification, regression, trees, cross-validation
+│   └── unsupervised/                    # Clustering, PCA dimensionality reduction
 │
-├── deep-learning/                   # Phase 3
-│   ├── pytorch-basics/
-│   ├── computer-vision/
-│   └── nlp/
+├── deep-learning/                       # Phase 4 🧠 (Deep neural networks & NLP architectures)
+│   ├── pytorch-basics/                  # Tensors, forward pass, activation mechanics
+│   └── nlp/                             # TF-IDF, Word2Vec, and Self-Attention Transformers
 │
-├── ai-engineering/                  # Phase 3
-│   ├── llm-apis/
-│   ├── rag/
-│   └── agents/
+├── ai-engineering/                      # Phase 4 🔗 (RAG, Tool-use, Agent design)
+│   ├── llm-apis/                        # Working with the OpenAI API notebook (working_with_openai_api.ipynb ✅)
+│   └── rag/                             # OpenAI Embeddings & Vector DB notebook (embeddings_openai_api.ipynb ✅)
 │
-├── mlops/                           # Phase 4
+├── cybersecurity/                       # Parallel 🛡️ (IT infrastructure & Model security)
+│   ├── datacamp-notes/                  # Intro to Cyber, Data Security notebook (intro_to_data_security.ipynb ✅), Network Security
+│   └── README.md                        # Log parsing pipelines & intrusion models
 │
-└── docs/
-    └── devlog.md
+└── mlops/                               # Phase 5 🚀 (Production & Serving)
+    └── serving/                         # FastAPI, Docker containers, API auditing
 ```
 
 ---
 
-## Resources
+## 🔗 Modular Project Index
 
-Documentation-first — videos only when stuck.
+All major practical implementations are developed in separate, dedicated repositories to maintain modularity and simulate professional codebases.
 
-| Topic | Resource |
-|---|---|
-| Python | [docs.python.org](https://docs.python.org) |
-| NumPy | [numpy.org/doc](https://numpy.org/doc) |
-| Pandas | [pandas.pydata.org/docs](https://pandas.pydata.org/docs) |
-| Scikit-learn | [scikit-learn.org/stable](https://scikit-learn.org/stable) |
-| PyTorch | [pytorch.org/docs](https://pytorch.org/docs) |
-| Hugging Face | [huggingface.co/docs](https://huggingface.co/docs) |
-| DataCamp | [datacamp.com](https://www.datacamp.com) |
-| Codedex | [codedex.io](https://www.codedex.io) |
-| ML & Stats | [Kaggle Learn](https://www.kaggle.com/learn) |
-| ML intuition | [StatQuest](https://www.youtube.com/@statquest) |
-| DL intuition | [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) |
-| Math intuition | [3Blue1Brown](https://www.youtube.com/@3blue1brown) |
+### 🐍 Core AI & Python Projects
+*   **Phase 1 Fundamentals Projects:** Hangman · Blackjack · Caesar Cipher · Calculator · Password Generator · Silent Auction · Higher or Lower · Rock Paper Scissors (Developed in Phase 1 ✅)
+*   **EDA — E-commerce Dataset** (Phase 2)
+    *   *Description:* Detailed Exploratory Data Analysis on transaction data.
+    *   *Repository:* `(Link coming soon after Phase 2 audit)`
+*   **Titanic & End-to-end ML Pipelines** (Phase 3)
+    *   *Description:* Classification models and cross-validation implementations using Scikit-learn.
+    *   *Repository:* `(Link coming soon)`
+
+### 🛡️ Cyber-AI & Advanced Projects
+*   **Command Line & Scripting Utils** (Phase 1)
+    *   *Description:* Automated scripting utilities and security helper scripts.
+    *   *Repository:* `(Link coming soon after Phase 2 audit)`
+*   **ML-Driven Network Intrusion Detection** (Phase 3)
+    *   *Description:* Anomaly detection on network traffic logs using Scikit-learn supervised learning.
+    *   *Repository:* `(Link coming soon)`
+*   **Context-Aware AI Threat Intel Agent** (Phase 4)
+    *   *Description:* Microsoft Turkey AI Innovators Internship Project — A RAG-driven AI agent capable of parsing security reports, identifying threat vectors, and securing LLM endpoints from prompt injections.
+    *   *Repository:* `(Link coming soon)`
+*   **Securely Deployed Dockerized ML API** (Phase 5)
+    *   *Description:* Production-grade FastAPI microservice serving ML predictions, containerized via Docker and audited for OWASP API vulnerabilities.
+    *   *Repository:* `(Link coming soon)`
+
+### 🏢 Enterprise & Partner Integrations
+*   **FlyRank Analytics Platform** (Upcoming)
+    *   *Description:* Custom AI-driven scoring and ranking engine designed for the FlyRank institution.
+    *   *Repository:* `(Upcoming / Repository link will be indexed upon launch)`
 
 ---
 
-> *"An investment in knowledge pays the best interest."* — Benjamin Franklin
+## 🛠️ Data-Driven Resources
+
+| Track | Platform / Resource | Description |
+| :--- | :--- | :--- |
+| **AI / Data Science** | [DataCamp](https://www.datacamp.com) | Core structured curriculum for Python, Pandas, NumPy, Scikit-learn, and PyTorch. |
+| **Cybersecurity** | [DataCamp](https://www.datacamp.com) | Parallel curriculum for Cybersecurity, Networking, and AI Safety. |
+| **ML Intuition** | [StatQuest](https://www.youtube.com/@statquest) | Deep mathematical and conceptual intuition for algorithms. |
+| **DL & LLMs** | [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) | Neural networks and LLMs from scratch. |
+| **Math & Visuals** | [3Blue1Brown](https://www.youtube.com/@3blue1brown) | Linear algebra, calculus, and neural network math. |
+
+---
+
+> *"The future of cybersecurity is AI-driven; the future of AI is secure."*

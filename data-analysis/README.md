@@ -1,100 +1,74 @@
-# Data Analysis
+[![Data Science & Analysis](../assets/data_analysis_banner.png)](../README.md)
 
-This folder contains Jupyter notebooks and datasets from Phase 2 of the AI Learning Lab — the ML Foundations stage. The focus is on data manipulation, transformation, and analysis using pandas.
+# Data Science & Analysis
 
----
+> This space tracks my Phase 2 journey focusing on ML foundations: manipulating, clean-structuring, joining, and analyzing data using NumPy, Pandas, and Matplotlib/Seaborn.
 
-## Structure
-
-```
-data-analysis/
-├── pandas/
-│   ├── data_manipulation.ipynb   ✅ Complete
-│   ├── Untitled.ipynb            🔄 In Progress  (Joining Data with Pandas)
-│   └── datasets/
-├── numpy/                        ⏳ Upcoming
-└── visualisation/                ⏳ Upcoming
-```
+[![Library](https://img.shields.io/badge/Stack-Pandas--NumPy--Matplotlib-blue?logo=pandas&logoColor=white&style=flat-square)](../README.md)
+[![Status](https://img.shields.io/badge/Status-In_Progress-orange?style=flat-square)](../README.md)
 
 ---
 
-## Pandas
+## 📂 What's in this folder
 
-### data_manipulation.ipynb ✅
-
-**Topic 1 — Transforming DataFrames**
-- Introducing DataFrames — structure, attributes (`.columns`, `.index`, `.shape`)
-- Sorting rows — `sort_values()`, multiple columns, ascending/descending
-- Subsetting columns — single and multiple column selection
-- Subsetting rows — boolean indexing, filtering by text, dates, and multiple conditions
-- `.isin()` for filtering on multiple values
-- Adding new columns — deriving from existing columns (e.g. height in metres, BMI calculation)
-
-**Topic 2 — Aggregating DataFrames**
-- Summary statistics — `sum()`, `mean()`, `min()`, `max()`, `count()`, `nunique()`
-- `.agg()` — applying multiple functions at once
-- Removing duplicates — `drop_duplicates()`, `subset`, `keep` parameter
-- Counting values — `value_counts()`, `normalize=True`, `sort_index()`
-- Grouped summaries — `groupby()` with single and multiple columns
-- `pivot_table()` — `values`, `index`, `columns`, `aggfunc`, `fill_value`, `margins`
-
-**Topic 3 — Slicing and Indexing DataFrames**
-- Setting and removing indexes — `set_index()`, `reset_index()`, `drop=True`
-- Multi-level (hierarchical) indexes
-- Subsetting with `.loc[]` — by label, by list, by tuple for inner levels
-- Subsetting with `.iloc[]` — by row and column number
-- Slicing rows and columns simultaneously
-- Slicing by date ranges and partial dates
-- Sorting indexes — `sort_index()`, `level` and `ascending` arguments
-- Working with pivot tables — `.loc[]` + slicing, `axis="index"` vs `axis="columns"`
-
-**Topic 4 — Creating and Visualizing DataFrames**
-- Histograms — `.hist()`, `bins` argument
-- Bar plots — `groupby` + `.plot(kind="bar")`
-- Line plots — `.plot(kind="line")`, `rot` for axis label rotation
-- Scatter plots — `.plot(kind="scatter")`
-- Layering multiple plots, `alpha` for transparency
-- Missing values — `isna()`, `.any()`, `.sum()`, visualising with bar plot
-- Removing missing values — `dropna()`
-- Filling missing values — `fillna()`
-- Creating DataFrames from scratch — list of dictionaries (row by row), dictionary of lists (column by column)
-- Reading and writing CSV files — `pd.read_csv()`, `.to_csv()`
+| File / Subfolder | Type / Access Badge | Description | Status |
+| :--- | :--- | :--- | :--- |
+| `pandas/data_manipulation.ipynb` | [![Notebook](https://img.shields.io/badge/Jupyter-Notebook-blue?logo=jupyter&style=flat-square)](pandas/data_manipulation.ipynb) | Sorting, slicing, boolean filtering, group aggregation, and pivot table modeling. | ✅ Complete |
+| `pandas/joining_data.ipynb` | [![Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&style=flat-square)](pandas/joining_data.ipynb) | Inner/Left/Right/Outer merging, index-based concatenation, and ordered/asof joins. | ✅ Complete |
+| `pandas/new_dogs.csv` | [![Raw Dataset](https://img.shields.io/badge/CSV-Raw-lightgrey?logo=pandas&style=flat-square)](pandas/new_dogs.csv) | Baseline dog records used in pandas manipulation exercises. | — |
+| `pandas/new_dogs_with_bmi.csv` | [![Raw Dataset](https://img.shields.io/badge/CSV-Raw-lightgrey?logo=pandas&style=flat-square)](pandas/new_dogs_with_bmi.csv) | Derived dataset containing programmatically calculated BMI vectors. | — |
+| `pandas/orders.csv` | [![Raw Dataset](https://img.shields.io/badge/CSV-Raw-lightgrey?logo=pandas&style=flat-square)](pandas/orders.csv) | Sample order list used for multi-variable groupby aggregations. | — |
+| `pandas/Ward_Census.csv` | [![Raw Dataset](https://img.shields.io/badge/CSV-Raw-lightgrey?logo=pandas&style=flat-square)](pandas/Ward_Census.csv) | Chicago census data (population metrics by ward). | — |
+| `pandas/Ward_Offices.csv` | [![Raw Dataset](https://img.shields.io/badge/CSV-Raw-lightgrey?logo=pandas&style=flat-square)](pandas/Ward_Offices.csv) | Chicago ward office details used for complex merging practice. | — |
 
 ---
 
-### Untitled.ipynb 🔄 *(Joining Data with Pandas — in progress)*
+## 🧮 Theoretical & Mathematical Foundations
 
-**Topic 1 — Data Merging Basics** *(started)*
-- Inner join with `merge()` — matching rows on a shared column
-- Chicago wards and census data merge example
+Data preparation and preprocessing are critical. Here are the core mathematical concepts and formulas implemented in this module.
 
-Topics still to cover: left/right/outer joins, merging on multiple keys, `concat()`, ordered merges, `merge_asof()`
-
----
-
-## Datasets
-
-| File | Used In | Description |
-| --- | --- | --- |
-| `new_dogs.csv` | `data_manipulation.ipynb` | Dog records — base dataset |
-| `new_dogs_with_bmi.csv` | `data_manipulation.ipynb` | Same dataset after adding a computed BMI column |
-| `orders.csv` | `data_manipulation.ipynb` | Sample orders data used for aggregation exercises |
-| `Ward_Census.csv` | `Untitled.ipynb` | Chicago ward census data — population by ward (2000 & 2010) |
-| `Ward_Offices.csv` | `Untitled.ipynb` | Chicago ward government office data — used in merge exercises |
+### 1. Interquartile Range (IQR) for Outlier Detection
+We use the IQR to establish bounds outside of which data points are flagged as anomalies.
+*   **IQR Calculation:**
+    $$IQR = Q_3 - Q_1$$
+    Where $Q_1$ is the $25^{\text{th}}$ percentile (first quartile) and $Q_3$ is the $75^{\text{th}}$ percentile (third quartile).
+*   **Outlier Threshold Fences:**
+    $$\text{Lower Fence} = Q_1 - 1.5 \times IQR$$
+    $$\text{Upper Fence} = Q_3 + 1.5 \times IQR$$
+    Any data point $x_i < \text{Lower Fence}$ or $x_i > \text{Upper Fence}$ is treated as an outlier.
 
 ---
 
-## Status
-
-| Topic | Status |
-| --- | --- |
-| Data Manipulation with Pandas | ✅ Complete |
-| Joining Data with Pandas | 🔄 In Progress |
-| NumPy | ⏳ Upcoming |
-| Visualisation | ⏳ Upcoming |
+### 2. Pearson Correlation Coefficient ($r$)
+Measures the linear correlation between two variables $X$ and $Y$, outputting values in the interval $[-1, 1]$.
+$$r_{xy} = \frac{\sum_{i=1}^n (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^n (x_i - \bar{x})^2 \sum_{i=1}^n (y_i - \bar{y})^2}}$$
+Where $\bar{x}$ and $\bar{y}$ are the sample means of $X$ and $Y$ respectively.
 
 ---
 
-## Notes
+### 3. Data Rescaling & Standardization
+To prevent features with larger scales from dominating optimization steps during model training, we apply mathematical scaling techniques.
 
-These notebooks are personal study notes — they contain code examples, explanations, and exercises worked through during learning. They reflect the learning process, not polished final projects.
+*   **Z-score Standardization:**
+    Transforms data to have a mean of 0 ($\mu = 0$) and standard deviation of 1 ($\sigma = 1$):
+    $$z = \frac{x - \mu}{\sigma}$$
+*   **Min-Max Scaling:**
+    Binds feature values strictly within the range $[0, 1]$:
+    $$x_{\text{scaled}} = \frac{x - x_{\text{min}}}{x_{\text{max}} - x_{\text{min}}}$$
+
+---
+
+### 4. Relational Database Joins (Set Mappings)
+Given two datasets $R$ and $S$ containing common key elements $k$:
+
+*   **Inner Join ($R \bowtie S$):** Returns records that have matching values in both tables:
+    $$R \bowtie S = \{ (r, s) \in R \times S \mid r.k = s.k \}$$
+*   **Left Outer Join ($R \rtimes S$):** Returns all records from the left table $R$, and the matched records from the right table $S$:
+    $$R \rtimes S = (R \bowtie S) \cup \{ (r, \text{null}) \mid r \in R, \, \forall s \in S : r.k \neq s.k \}$$
+*   **Full Outer Join ($R \cup_{\text{join}} S$):** Retains all records from both tables, populating null values for missing keys.
+
+---
+
+## 🎯 Navigation
+
+`[← Python Fundamentals](../python/) | [Next: Machine Learning →](../machine-learning/)`

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 130" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ml-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#64748B"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="920" height="130" rx="12" fill="url(#ml-grad)" stroke="#334155" stroke-width="1.5" />
+  
+  <!-- Steps -->
+  <!-- Step 1 -->
+  <g transform="translate(15, 25)">
+    <rect width="120" height="70" rx="8" fill="#1E293B" stroke="#3B82F6" stroke-width="1.5" />
+    <text x="60" y="32" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#F8FAFC" text-anchor="middle">Data Collection</text>
+    <text x="60" y="50" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8" text-anchor="middle">Raw Logs &amp; CSvs</text>
+  </g>
+  <line x1="135" y1="60" x2="160" y2="60" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)" />
+  
+  <!-- Step 2 -->
+  <g transform="translate(165, 25)">
+    <rect width="120" height="70" rx="8" fill="#1E293B" stroke="#6366F1" stroke-width="1.5" />
+    <text x="60" y="32" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#F8FAFC" text-anchor="middle">Preprocessing</text>
+    <text x="60" y="50" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8" text-anchor="middle">Imputation &amp; Scale</text>
+  </g>
+  <line x1="285" y1="60" x2="310" y2="60" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Step 3 -->
+  <g transform="translate(315, 25)">
+    <rect width="120" height="70" rx="8" fill="#1E293B" stroke="#8B5CF6" stroke-width="1.5" />
+    <text x="60" y="32" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#F8FAFC" text-anchor="middle">Feature Eng.</text>
+    <text x="60" y="50" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8" text-anchor="middle">Selection &amp; PCA</text>
+  </g>
+  <line x1="435" y1="60" x2="460" y2="60" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Step 4 -->
+  <g transform="translate(465, 25)">
+    <rect width="120" height="70" rx="8" fill="#1E293B" stroke="#D946EF" stroke-width="1.5" />
+    <text x="60" y="32" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#F8FAFC" text-anchor="middle">Model Training</text>
+    <text x="60" y="50" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8" text-anchor="middle">Fit Scikit-learn</text>
+  </g>
+  <line x1="585" y1="60" x2="610" y2="60" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Step 5 -->
+  <g transform="translate(615, 25)">
+    <rect width="120" height="70" rx="8" fill="#1E293B" stroke="#EC4899" stroke-width="1.5" />
+    <text x="60" y="32" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#F8FAFC" text-anchor="middle">Evaluation</text>
+    <text x="60" y="50" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8" text-anchor="middle">Inertia &amp; Metrics</text>
+  </g>
+  <line x1="735" y1="60" x2="760" y2="60" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Step 6 -->
+  <g transform="translate(765, 25)">
+    <rect width="140" height="70" rx="8" fill="url(#ml-grad)" stroke="url(#accent-grad)" stroke-width="2" />
+    <text x="70" y="32" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#F8FAFC" text-anchor="middle">Model Deployment</text>
+    <text x="70" y="50" font-family="system-ui, sans-serif" font-size="10" fill="#10B981" text-anchor="middle">FastAPI Microservice</text>
+  </g>
+</svg>
