@@ -126,17 +126,31 @@ All major practical implementations are developed in separate, dedicated reposit
 *   **ML-Driven Network Intrusion Detection** (Phase 3)
     *   *Description:* Anomaly detection on network traffic logs using Scikit-learn supervised learning.
     *   *Repository:* `(Link coming soon)`
-*   **Context-Aware AI Threat Intel Agent** (Phase 4)
-    *   *Description:* Microsoft Turkey AI Innovators Internship Project — A RAG-driven AI agent capable of parsing security reports, identifying threat vectors, and securing LLM endpoints from prompt injections.
-    *   *Repository:* `(Link coming soon)`
 *   **Securely Deployed Dockerized ML API** (Phase 5)
     *   *Description:* Production-grade FastAPI microservice serving ML predictions, containerized via Docker and audited for OWASP API vulnerabilities.
     *   *Repository:* `(Link coming soon)`
 
-### 🏢 Enterprise & Partner Integrations
-*   **FlyRank Analytics Platform** (Upcoming)
-    *   *Description:* Custom AI-driven scoring and ranking engine designed for the FlyRank institution.
-    *   *Repository:* `(Upcoming / Repository link will be indexed upon launch)`
+---
+
+## 💼 Professional Development, Bootcamps & Internships
+
+This section indexes key bootcamps, internships, and specialized programs where I actively apply and expand my AI Engineering skills on real-world projects and production-grade architectures. Clicking on the titles will navigate you directly to their respective repositories.
+
+### 🐍 [Pupilica AI Bootcamp](https://github.com/bilgenurpala/pupilica-ai-bootcamp)
+*   **Role / Program:** Live AI Engineering Training Track
+*   **Focus Areas:** Intensive bootcamp covering advanced data preprocessing, feature scaling, classical supervised/unsupervised machine learning pipelines, and deep neural network designs.
+*   **Repository:** [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github&style=flat-square)](https://github.com/bilgenurpala/pupilica-ai-bootcamp)
+
+### 🏢 [FlyRank AI Engineer Internship](https://github.com/bilgenurpala/flyrank-project)
+*   **Role / Program:** AI Engineer Intern
+*   **Focus Areas:** Systems, data, and backend AI product development. Focuses on designing API contracts, retrieval-backed answer flows (RAG prototypes), structured-output pipelines, tool-calling agent workflows, and evaluation harnesses while owning correctness and failure handling.
+*   **Repository:** [![GitHub Repo](https://img.shields.io/badge/GitHub-Upcoming_Repo-lightgrey?logo=github&style=flat-square)](https://github.com/bilgenurpala/flyrank-project)
+
+### 🛡️ [Microsoft Turkey AI Innovators Program](https://github.com/bilgenurpala/microsoft-ai-project)
+*   **Role / Program:** Program Participant & AI Developer
+*   **Focus Areas:** Building and optimizing local retrieval pipelines, context injection, and local models.
+*   **Target Project:** *"Building Your First Local RAG Application with Foundry Local"* — a complete local RAG system running on local hardware.
+*   **Repository:** [![GitHub Repo](https://img.shields.io/badge/GitHub-Upcoming_Repo-lightgrey?logo=github&style=flat-square)](https://github.com/bilgenurpala/microsoft-ai-project)
 
 ---
 
