@@ -141,6 +141,11 @@ This section indexes key bootcamps, internships, and specialized programs where 
 *   **Focus Areas:** Intensive bootcamp covering advanced data preprocessing, feature scaling, classical supervised/unsupervised machine learning pipelines, and deep neural network designs.
 *   **Repository:** [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github&style=flat-square)](https://github.com/bilgenurpala/pupilica-ai-bootcamp)
 
+### 🤖 [IBM & Kodluyoruz AI4Future Bootcamp](https://github.com/bilgenurpala/ai4future)
+*   **Role / Program:** Bootcamp Participant (IBM SkillsBuild AI Track)
+*   **Focus Areas:** Comprehensive curriculum covering AI literacy, machine learning models, NLP, computer vision, generative AI, prompt engineering, multi-agent systems, RAG architectures, and AI ethics.
+*   **Repository:** [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github&style=flat-square)](https://github.com/bilgenurpala/ai4future)
+
 ### 🏢 [FlyRank AI Engineer Internship](https://github.com/bilgenurpala/flyrank-project)
 *   **Role / Program:** AI Engineer Intern
 *   **Focus Areas:** Systems, data, and backend AI product development. Focuses on designing API contracts, retrieval-backed answer flows (RAG prototypes), structured-output pipelines, tool-calling agent workflows, and evaluation harnesses while owning correctness and failure handling.
