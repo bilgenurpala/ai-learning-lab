@@ -151,11 +151,10 @@ This section indexes key bootcamps, internships, and specialized programs where 
 *   **Focus Areas:** Systems, data, and backend AI product development. Focuses on designing API contracts, retrieval-backed answer flows (RAG prototypes), structured-output pipelines, tool-calling agent workflows, and evaluation harnesses while owning correctness and failure handling.
 *   **Repository:** [![GitHub Repo](https://img.shields.io/badge/GitHub-Upcoming_Repo-lightgrey?logo=github&style=flat-square)](https://github.com/bilgenurpala/flyrank-project)
 
-### 🛡️ [Microsoft Turkey AI Innovators Program](https://github.com/bilgenurpala/microsoft-ai-project)
+### 🛡️ [Microsoft Turkey AI Innovators Program](https://github.com/bilgenurpala/local-rag-assistant)
 *   **Role / Program:** Program Participant & AI Developer
-*   **Focus Areas:** Building and optimizing local retrieval pipelines, context injection, and local models.
-*   **Target Project:** *"Building Your First Local RAG Application with Foundry Local"* — a complete local RAG system running on local hardware.
-*   **Repository:** [![GitHub Repo](https://img.shields.io/badge/GitHub-Upcoming_Repo-lightgrey?logo=github&style=flat-square)](https://github.com/bilgenurpala/microsoft-ai-project)
+*   **Focus Areas:** Building a fully offline, local RAG Q&A assistant using Microsoft Foundry Local for on-device LLM inference (Phi-3.5), SQLite for vector and document storage, and Python for cosine-similarity retrieval.
+*   **Repository:** [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github&style=flat-square)](https://github.com/bilgenurpala/local-rag-assistant)
 
 ---
 
