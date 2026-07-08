@@ -25,6 +25,18 @@ All progress is logged in the [Devlog](docs/devlog.md).
 
 ---
 
+## 🗂️ Repositories
+
+| Repository | Description |
+| :--- | :--- |
+| [anthropic-academy](https://github.com/bilgenurpala/anthropic-academy) | Anthropic Academy certification courses (FlyRank internship): notes, hands-on labs, certificates. |
+| [flyrank-internship](https://github.com/bilgenurpala/flyrank-internship) | FlyRank backend AI internship: weekly tasks and learning outputs. |
+| [pupilica-ai-bootcamp](https://github.com/bilgenurpala/pupilica-ai-bootcamp) | Pupilica AI Bootcamp: advanced ML pipelines and deep learning. |
+| [ai4future](https://github.com/bilgenurpala/ai4future) | IBM & Kodluyoruz AI4Future Bootcamp: AI literacy, NLP, GenAI. |
+| [local-rag-assistant](https://github.com/bilgenurpala/local-rag-assistant) | Microsoft Turkey AI Innovators: offline local RAG Q&A assistant. |
+
+---
+
 ## 🗺️ Topic-Based Roadmap
 
 To ensure deep conceptual mastery, this roadmap is structured around core topic benchmarks rather than rigid calendar dates. Both AI and Cybersecurity are learned in parallel tracks.
@@ -146,10 +158,15 @@ This section indexes key bootcamps, internships, and specialized programs where 
 *   **Focus Areas:** Comprehensive curriculum covering AI literacy, machine learning models, NLP, computer vision, generative AI, prompt engineering, multi-agent systems, RAG architectures, and AI ethics.
 *   **Repository:** [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github&style=flat-square)](https://github.com/bilgenurpala/ai4future)
 
-### 🏢 [FlyRank AI Engineer Internship](https://github.com/bilgenurpala/flyrank-project)
+### 🏢 [FlyRank AI Engineer Internship](https://github.com/bilgenurpala/flyrank-internship)
 *   **Role / Program:** AI Engineer Intern
 *   **Focus Areas:** Systems, data, and backend AI product development. Focuses on designing API contracts, retrieval-backed answer flows (RAG prototypes), structured-output pipelines, tool-calling agent workflows, and evaluation harnesses while owning correctness and failure handling.
-*   **Repository:** [![GitHub Repo](https://img.shields.io/badge/GitHub-Upcoming_Repo-lightgrey?logo=github&style=flat-square)](https://github.com/bilgenurpala/flyrank-project)
+*   **Repository:** [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github&style=flat-square)](https://github.com/bilgenurpala/flyrank-internship)
+
+### 📜 [Anthropic Academy](https://github.com/bilgenurpala/anthropic-academy)
+*   **Role / Program:** Certification Coursework (FlyRank Internship)
+*   **Focus Areas:** Anthropic Academy certification courses: notes, hands-on labs, certificates.
+*   **Repository:** [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github&style=flat-square)](https://github.com/bilgenurpala/anthropic-academy)
 
 ### 🛡️ [Microsoft Turkey AI Innovators Program](https://github.com/bilgenurpala/local-rag-assistant)
 *   **Role / Program:** Program Participant & AI Developer
